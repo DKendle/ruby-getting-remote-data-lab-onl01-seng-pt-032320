@@ -13,10 +13,10 @@ URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.
     response.body
   end
   
-  def parse_json
-    people = JSON.parse(self.get_response_body)
-      people.collect do |person| 
-        person[""]
-  end
+  # def parse_json
+  #   people = JSON.parse(self.get_response_body)
+  #     people.collect do |person| 
+  #       person[""]
+  # end
   
 end
