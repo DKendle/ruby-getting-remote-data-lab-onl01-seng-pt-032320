@@ -21,4 +21,5 @@ URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.
   
 end
 
-people = GetRequester.new
+people = GetRequester.new.get_response_body
+puts people
