@@ -14,7 +14,8 @@ URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.
   end
   
   def parse_json
-    get_response_body
+    people = JSON.parse(self.get_response_body)
+      
   end
   
 end
